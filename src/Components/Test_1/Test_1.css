@@ -1,0 +1,57 @@
+.test_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px grey solid; */
+  align-items: center;
+  margin: 40px 20px 20px 20px;
+  height: min-content;
+}
+
+.login {
+  /* border: 1px grey solid; */
+  width: 25%;
+  height: auto;
+  /* padding: 14% 20px; */
+  margin: 0 10px 0 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #b9b7b7e0;
+}
+
+.btn {
+  width: 150px;
+  height: 35px;
+}
+
+.carousel {
+  width: 75%;
+  /* border: 1px grey solid; */
+  padding: 0px;
+  margin-left: 100px;
+}
+
+.carousel img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.loginOff {
+  visibility: hidden;
+}
+
+.loginOn {
+  visibility: visible;
+  align-items: center;
+}
+
+.valueOff {
+  visibility: hidden;
+}
+
+.valueOn {
+  visibility: visible;
+}
